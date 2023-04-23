@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.demo.Enginer">
+        <methods>
+          <include name="testConfirm"/>
+        </methods>
+      </class> <!-- org.demo.Enginer -->
+      <class name="org.demo.Enroll">
+        <methods>
+          <include name="afterClass"/>
+          <include name="after"/>
+          <include name="room"/>
+          <include name="before"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- org.demo.Enroll -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
